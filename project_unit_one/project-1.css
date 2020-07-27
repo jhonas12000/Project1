@@ -4,7 +4,7 @@ body {
 }
 
 button,table,#game,body,td {
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
     background:#eee;
 }
 
@@ -12,11 +12,11 @@ button,table,#game,body,td {
     width:620px;
 }
 
-#gameboard,.leg {
+#gameboard {
     background:rgb(0, 255, 21);
 }
 
-#gameboard,.leg,#gameboard td,#r {
+#gameboard,#gameboard td,#start {
     border:2px solid rgb(0, 153, 0);  		
 }
 
@@ -44,12 +44,12 @@ button,table,#game,body,td {
 #start,#gameboard td {
     border-color:#333;
 }
-
-.leg {
-    border-top-width:0;
-    height:100px;
-    width:20px;
-    border-radius:0 0 12px 12px;
+#start {
+    position: absolute;
+    padding: 10px;
+    background: blue;
+    font-size: 16px;
+    color: white;
 }
 
 .left {
@@ -60,10 +60,10 @@ button,table,#game,body,td {
     float:right;
 }
 
-.yellow,.red,#gameboard,.leg {
+.yellow,.red,#gameboard {
     box-shadow: inset 0 0 20px rgba(100,100,100,0.6);
 }
 
-#n,#w,#a,#b {
+#new-game,#winner,#player1,#player2 {
     display:none;
 }

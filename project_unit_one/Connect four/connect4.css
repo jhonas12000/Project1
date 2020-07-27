@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background: white;
+}
+h1 {
+    text-align: center;
+}
+.board {
+    width: 500px;
+    height: 450px;
+    background: blue;
+    border: 1px black solid;
+    position: absolute;
+    top: 4re;
+    left: 50%;
+    transform: translate(-50%);
+}
+.row {
+    border: 2px gray solid;
+}
+.col {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 38px;
+}
+.color1, .color2 {
+    display: none;
+}
+
+button, .board, .game {
+    margin: 40px auto 0 auto;
+} 
+
